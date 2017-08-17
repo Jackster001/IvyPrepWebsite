@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>IvyPrep-Events, Resources, Newsletter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/ivyStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+
+<body>
+    <script type="text/javascript" src="js/header.js"></script>
+    <div style="height: 41px"></div>
+    <div class="row" style="margin-top: -40px;">
+        <div class="container" style="background-color: black; width: 100%">
+            <center>
+                <h1 style="font-size: 50px;">Events & Resources</h1>
+            </center>
+        </div>
+        <div class="container underNav" style="margin-bottom: 20px;">
+            <CENTER>
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-1 col-xs-2 col-xs-offset-1 box" onclick="swap('event','sat')">
+                        <h1>SAT</h1>
+                    </div>
+                    <div class="col-md-2 box col-xs-2" onclick="swap('event','act')">
+                        <h1>ACT</h1>
+                    </div>
+                    <div class="col-md-2 box col-xs-2" onclick="swap('event','shsat')">
+                        <h1>SHSAT</h1>
+                    </div>
+                    <div class="col-md-2 box col-xs-2" onclick="swap('event','hunter')">
+                        <h1>Hunter</h1>
+                    </div>
+                    <div class="col-md-2 box col-xs-2" onclick="swap('event','psat')">
+                        <h1>PSAT</h1>
+                    </div>
+                </div>
+            </CENTER>
+        </div>
+    </div>
+    <style>
+        .event {
+            text-align: center;
+            font-size: 50px;
+        }
+        
+        .news {
+            font-size: 15px;
+            color: black;
+        }
+        
+        #sat {
+            display: block;
+        }
+        
+        #act {
+            display: none;
+        }
+        
+        #shsat {
+            display: none;
+        }
+        
+        #hunter {
+            display: none;
+        }
+        
+        #psat {
+            display: none;
+        }
+
+    </style>
+
+    <center>
+        <h2 style="color: black">Please choose one of our programs above!</h2>
+    </center>
+    <div class="event" id="sat">
+        The Sat
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="event" id="act">
+        The ACT<br>
+
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="event" id="shsat">
+        The SHSAT<br>
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title for shsat</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="event" id="hunter">
+        The Hunter Entrance Exams<br>
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="event" id="psat">
+        The PSAT<br>
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container Eve">
+            <div class="row eventBar">
+                <div class="col-md-2 col-md-offset-1">
+                    <!-- circleimg -->
+                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 100px;width: 100px;margin-top: 30px;">
+                </div>
+                <div class="col-md-6 eventDescription">
+                    <h2 style="font-size: 20px">Event title</h2>
+                    <p>Date:</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <form action="#link" style="margin-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="emails">
+        <div class="container newsletter" id="newsletter">
+            <div style="font-size: 20px;text-align: center;">
+
+                <h1 style="font-size: 50px;">Sign up for our Newsletter!</h1>
+                <br>
+
+                <!--                    See this link to learn how to do this cool trick! https://blog.webjeda.com/google-form-customize/-->
+                <script type="text/javascript">
+                    var submitted = false;
+
+                </script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='thankyou.html';}"></iframe>
+
+                <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSeUA349wgbqmcgXOkQZGM1RD_BaC0Ugz4Yx2kqJrOkS3EzSJw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
+                    <label>Name</label><br>
+                    <input name="entry.1725248367" type="text" placeholder="Enter name here" required style="color:black; width: 100%; border-radius: 5px;" />
+                    <br><br>
+                    <label>Email</label><br>
+                    <input name="entry.188168419" type="email" placeholder="Enter email here" required style="color: black; width: 100%; border-radius: 5px;" />
+                    <br><br>
+                    <input type="submit" value="Send" class="hvr-grow" style="background-color:steelblue; color:black; border-radius: 10px; width: 80%" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- this is the footer of the homepages -->
+    <script type="text/javascript" src="js/footer.js"></script>
+    <!-- BOTTOM NAVBAR(MOBILE) -->
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/generalscript.js"></script>
+
+</html>
